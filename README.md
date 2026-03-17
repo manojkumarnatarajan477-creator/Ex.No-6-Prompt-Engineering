@@ -14,15 +14,15 @@ The aim is to understand how to request help from AI tools for tasks like writin
 
 Program:
 
-Positive Analysis:
 ```
+POSITIVE ANALYSIS
 from nltk.sentiment import SentimentIntensityAnalyzer
 import nltk
 
 nltk.download('vader_lexicon')
 
 # Simulated AI-generated text
-generated_text = "This smartphone offers outstanding battery life and an intelligent AI camera that captures stunning photos."
+generated_text = "This smartphone offers outstanding battery life and an intelligent AI camera that captures stunning photos. i want this into negative statement"
 
 print("Generated Review:\n")
 print(generated_text)
@@ -39,10 +39,8 @@ if sentiment['compound'] > 0:
     print("\nInsight: The review is positive and suitable for marketing promotion.")
 else:
     print("\nInsight: The review tone is neutral or negative.")
-```
-    
-Negative Analysis:
-```
+NEGATIVE ANALYSIS 
+
 from nltk.sentiment import SentimentIntensityAnalyzer
 import nltk
 
